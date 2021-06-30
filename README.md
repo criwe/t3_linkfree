@@ -6,8 +6,8 @@ A basic style is included, maybe not necessarily the most beautiful ;-) But you 
 
 # Installation
 
-- Use the extension manager to installt this extension
-- continue with "usage"!
+- Use the extension manager to install this extension
+- Continue with "usage"!
 
 # Usage
 
