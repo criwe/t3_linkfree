@@ -2,7 +2,12 @@ t3_linkfree
 ==============================================================
 
 Easy to use solution to realise a simple "linktree" (based on https://github.com/MichaelBarney/LinkFree).
-A basic style is included, maybe not necessarily the most beautiful ;-) But you can easily adopt the style, see "customization"
+A basic style is included, maybe not necessarily the most beautiful ;-) But you can easily adopt the style, see "customizing"
+
+# Installation
+
+- Use the extension manager to installt this extension
+- continue with "usage"!
 
 # Usage
 
