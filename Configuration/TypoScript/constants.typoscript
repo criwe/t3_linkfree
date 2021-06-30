@@ -1,0 +1,50 @@
+######################
+#### DEPENDENCIES ####
+######################
+############
+### PAGE ###
+############
+page {
+     fluidtemplate {
+        layoutRootPath = EXT:t3_linkfree/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:t3_linkfree/Resources/Private/Partials/Page/
+        templateRootPath = EXT:t3_linkfree/Resources/Private/Templates/Page/
+    }
+    meta {
+        description =
+        author =
+        keywords =
+        viewport = width=device-width, initial-scale=1
+        robots = index,follow
+        apple-mobile-web-app-capable = no
+        compatible = IE=edge
+    }
+
+}
+
+
+##############
+### CONFIG ###
+##############
+config {
+    no_cache = 0
+    removeDefaultJS = 0
+    admPanel = 0
+    prefixLocalAnchors = all
+    sendCacheHeaders = 1
+}
+
+plugin.tx_t3_linkfree.settings {
+    # cat=plugin.tx_t3_linkfree; type=string; label=Link
+    linktreelink = 
+    # cat=plugin.tx_t3_linkfree; type=string; label=Name
+    linktreename = your name
+    # cat=plugin.tx_t3_linkfree; type=string; label=alt Logo
+    linktreealtlogo =
+    # cat=plugin.tx_t3_linkfree/file; type=string; label=Path to CSS file
+    cssFile = EXT:t3_linkfree/Resources/Public/Css/layout.css
+    # cat=plugin.tx_t3_linkfree/file; type=string; label=Logo
+    logoFile = EXT:t3_linkfree/Resources/Public/Icons/dummy.webp
+    # cat=plugin.tx_t3_linkfree/file; type=string; label=Favicon
+    faviconFile = EXT:t3_linkfree/Resources/Public/Icons/favicon.ico
+}
