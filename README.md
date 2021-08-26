@@ -6,7 +6,7 @@ A basic style is included, maybe not necessarily the most beautiful ;-) But you 
 
 # Installation
 
-- Use the extension manager to install this extension
+- Use the extension manager (or composer) to install this extension
 - Continue with "usage"!
 
 # Usage
