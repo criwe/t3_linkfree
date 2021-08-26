@@ -3,8 +3,12 @@
     "type": "typo3-cms-extension",
     "description": "",
     "homepage": "https://www.itfoo.de",
-    "license": ["GPL-2.0-or-later"],
-    "keywords": ["TYPO3 CMS"],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "keywords": [
+        "TYPO3 CMS"
+    ],
     "require": {
         "typo3/cms-core": "^10.2",
         "typo3/cms-rte-ckeditor": "^10.2",
@@ -13,6 +17,11 @@
     "autoload": {
         "psr-4": {
             "Itfoo\\t3_linkfree\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3_linkfree"
         }
     }
 }
