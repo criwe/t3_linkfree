@@ -8,7 +8,7 @@ For Editors
 
 Adding Links to your linktree is quite simple: just add subpages to your main linkfree-page:
 
-.. figure:: ../Editor/editor.png
+.. figure:: ../Images/Editor/editor.png
    :class: with-shadow
    :alt: Example
 

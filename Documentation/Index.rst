@@ -19,17 +19,18 @@ Extension Name
    en
 
 :Authors:
-   Your name
+   Christoph Werner
 
 :Email:
-   you@domain.tld
+   info@itfoo.de
 
 :License:
    This extension documentation is published under the
    `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`__ (Creative Commons)
    license
 
-{extension.description}
+:Description:
+	Easy to use solution to realise a simple "linktree" in TYPO3 (based on https://github.com/MichaelBarney/LinkFree).
 
 **TYPO3**
 
@@ -38,16 +39,16 @@ a GNU/GPL CMS/Framework available from `typo3.org <https://typo3.org/>`_ .
 
 **Community Documentation**
 
-This documentation is community documentation for the TYPO3 extension {extension.name}
+This documentation is community documentation for the TYPO3 extension t3_linkfree
 
 It is maintained as part of this third party extension.
 
 If you find an error or something is missing, please:
-`Report a Problem <https://github.com/TYPO3-Documentation/TYPO3CMS-Example-ExtensionManual/issues/new>`__
+`Report a Problem <hhttps://github.com/criwe/t3_linkfree/issues/new>`__
 
 **Extension Manual**
 
-This documentation is for the TYPO3 extension <extkey>.
+This documentation is for the TYPO3 extension t3_linkfree.
 
 **For Contributors**
 
