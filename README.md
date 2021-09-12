@@ -1,6 +1,8 @@
 t3_linkfree
 ==============================================================
 
+SEE DOCUMENTATION IN THE /Documentation/Index.rst !!
+
 Easy to use solution to realise a simple "linktree" (based on https://github.com/MichaelBarney/LinkFree).
 A basic style is included, maybe not necessarily the most beautiful ;-) But you can easily adopt the style, see "customizing"
 
