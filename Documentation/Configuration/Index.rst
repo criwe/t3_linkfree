@@ -8,7 +8,7 @@ Configuration
 
 The extension can be configured via the constant editor:
 
-.. figure:: ../Images/Editor/configuration.png
+.. figure:: ../Images/Configuration/configuration.png
    :class: with-shadow
    :alt: configuration
 
