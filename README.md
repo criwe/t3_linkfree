@@ -25,7 +25,9 @@ You can easily change the style by adding your own CSS file. Just set the path v
 
 # System Requirements
 
-Works with TYPO3 10.4
+- Works with TYPO3 10 + 11 and PHP 7.4 + 8
+
+
 
 
 
