@@ -47,4 +47,6 @@ plugin.tx_t3_linkfree.settings {
     logoFile = EXT:t3_linkfree/Resources/Public/Icons/dummy.webp
     # cat=plugin.tx_t3_linkfree/file; type=string; label=Favicon
     faviconFile = EXT:t3_linkfree/Resources/Public/Icons/favicon.ico
+    # cat=plugin.tx_t3_linkfree; type=boolean; label=Use spaceless im template
+    usespaceless = 1
 }

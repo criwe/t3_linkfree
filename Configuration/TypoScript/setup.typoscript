@@ -51,6 +51,7 @@ page {
         settings.linktreename = {$plugin.tx_t3_linkfree.settings.linktreename} 
         settings.linktreealtlogo = {$plugin.tx_t3_linkfree.settings.linktreealtlogo} 
         settings.logoFile = {$plugin.tx_t3_linkfree.settings.logoFile} 
+        settings.usespaceless = {$plugin.tx_t3_linkfree.settings.usespaceless} 
 
     }
 
