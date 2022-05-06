@@ -1,8 +1,14 @@
 {
     "name": "itfoo/t3_linkfree",
     "type": "typo3-cms-extension",
-    "description": "",
+    "description": "Simple linktree alternative. Easy to use",
     "homepage": "https://www.itfoo.de",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "linkfree",
+        "linktree"
+    ],     
     "license": [
         "GPL-2.0-or-later"
     ],
