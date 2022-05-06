@@ -1,22 +1,39 @@
 <f:layout name="Default" />
 <f:section name="Main">
-
-    <f:if condition="{settings.linktreelink}">
-        <a href="{settings.linktreelink}" id="userName">
-    </f:if>    
-        <f:image  id="userPhoto" src="{settings.logoFile}" alt="{settings.linktreealtlogo}" />
-        <div id="userspan">{settings.linktreename}</div>
-    <f:if condition="{settings.linktreelink}">        
-        </a>
-    </f:if>  
-        <div id="links">
-
-    <f:for each="{mainnavigation}" as="mainnavigationItem">
-            <a href="{mainnavigationItem.link}" target="{mainnavigationItem.target}" title="{mainnavigationItem.title}" class="link" >
-                {mainnavigationItem.title}
-            </a>
-
-    </f:for>
-    </div>
-
+    <f:if condition="{settings.usespaceless}==1">
+        <f:then>
+            <f:spaceless>
+                <f:if condition="{settings.linktreelink}">
+                    <a href="{settings.linktreelink}" id="userName">
+                </f:if>    
+                <f:image  id="userPhoto" src="{settings.logoFile}" alt="{settings.linktreealtlogo}" />
+                <div id="userspan">{settings.linktreename}</div>
+                <f:if condition="{settings.linktreelink}">        
+                    </a>
+                </f:if>  
+                <div id="links">
+                    <f:for each="{mainnavigation}" as="mainnavigationItem">
+                        <a href="{mainnavigationItem.link}" target="{mainnavigationItem.target}" title="{mainnavigationItem.title}" class="link" >{mainnavigationItem.title}</a>
+                    </f:for>
+                </div>
+            </f:spaceless>
+        </f:then>
+        <f:else>
+            <f:if condition="{settings.linktreelink}">
+                <a href="{settings.linktreelink}" id="userName">
+            </f:if>    
+            <f:image  id="userPhoto" src="{settings.logoFile}" alt="{settings.linktreealtlogo}" />
+            <div id="userspan">{settings.linktreename}</div>
+            <f:if condition="{settings.linktreelink}">        
+                </a>
+            </f:if>  
+            <div id="links">
+                <f:for each="{mainnavigation}" as="mainnavigationItem">
+                    <a href="{mainnavigationItem.link}" target="{mainnavigationItem.target}" title="{mainnavigationItem.title}" class="link" >
+                        {mainnavigationItem.title}
+                    </a>
+                </f:for>
+            </div>            
+        </f:else>
+    </f:if>
 </f:section>

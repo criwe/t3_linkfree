@@ -21,3 +21,4 @@ The extension can be configured via the constant editor:
 * Link: used for linking logo and name
 * Name: the name you see beneth the logo
 * alt Logo: alt-tag of your logo
+* usespaceless: if checked, redundant spaces between HTML tags are removed. So the output is a bit smaller. Is checked by default
