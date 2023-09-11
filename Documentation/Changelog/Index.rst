@@ -9,7 +9,7 @@ Change log
 Version 1.0.4
 -------------
 
-Add <spaceless> to template
+Add <spaceless> to template (optional)
 Add FAQ section in documentation
 
 

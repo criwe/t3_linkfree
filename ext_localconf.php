@@ -1,4 +1,4 @@
 <?php
-defined('TYPO3_MODE') || die();
-
-
+if (!defined('TYPO3')) {
+    die('Access denied.');
+}
