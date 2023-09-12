@@ -11,13 +11,13 @@ Version 1.0.5
 
 Support for TYPO3 12
 
-remove Google Fonts @import from css
+Remove Google Fonts @import from css
 
-remove some unneeded files
+Remove some unneeded files
 
-formating this file
+Formating this file
 
-thanks to `Protein Revolution <https://www.protein-revolution.de/>` for supporting this update :-)
+Thanks to `Protein Revolution <https://www.protein-revolution.de/>` for supporting this update :-)
 
 
 Version 1.0.4
