@@ -9,7 +9,7 @@ Change log
 Version 1.0.5
 -------------
 
-Support for TYPO3 12
+Add support for TYPO3 12
 
 Remove Google Fonts @import from css
 
