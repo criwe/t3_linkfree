@@ -17,7 +17,7 @@ Remove some unneeded files
 
 Formating this file
 
-Thanks to `Protein Revolution <https://www.protein-revolution.de/>` for supporting this update :-)
+Thanks to `Protein Revolution <https://www.protein-revolution.de/>`__ for supporting this update :-)
 
 
 Version 1.0.4
