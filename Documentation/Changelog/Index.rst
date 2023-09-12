@@ -6,10 +6,25 @@
 Change log
 ==========
 
+Version 1.0.5
+-------------
+
+Support for TYPO3 12
+
+remove Google Fonts @import from css
+
+remove some unneeded files
+
+formating this file
+
+thanks to `Protein Revolution <https://www.protein-revolution.de/>` for supporting this update :-)
+
+
 Version 1.0.4
 -------------
 
 Add <spaceless> to template (optional)
+
 Add FAQ section in documentation
 
 
@@ -17,12 +32,14 @@ Version 1.0.3
 -------------
 
 Add infos for TYPO3 11 compatibility
+
 Works with TYPO3 10 + 11 and PHP 7.4 + 8
 
 Version 1.0.2
 -------------
 
 Add documentation
+
 Update composer.json
 
 
