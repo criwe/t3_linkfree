@@ -16,12 +16,7 @@
         "TYPO3 CMS"
     ],
     "require": {
-        "typo3/cms-core": ">=10.4.13,<=11.9.99"
-    },
-    "autoload": {
-        "psr-4": {
-            "Itfoo\\t3_linkfree\\": "Classes/"
-        }
+        "typo3/cms-core": ">=11.5.0,<=12.9.99"
     },
     "extra": {
         "typo3/cms": {

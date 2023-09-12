@@ -9,22 +9,15 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'templates',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.13-11.9.99',
+            'typo3' => '11.5.0-12.9.99',
         ],
         'conflicts' => [
         ],
     ],
-    'autoload' => [
-        'psr-4' => [
-            'Itfoo\\t3_linkfree\\' => 'Classes',
-        ],
-    ],
     'state' => 'stable',
-    'uploadfolder' => 0,
-    'createDirs' => '',
     'clearCacheOnLoad' => 1,
     'author' => 'Christoph Werner',
     'author_email' => 'christoph.werner@itfoo.de',
     'author_company' => 'itfoo',
-    'version' => '1.0.4',
+    'version' => '1.0.5',
 ];
