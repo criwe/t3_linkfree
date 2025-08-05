@@ -9,7 +9,7 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'templates',
     'constraints' => [
         'depends' => [
-            'typo3' => '11.5.0-12.9.99',
+            'typo3' => '13.4.0-13.9.99',
         ],
         'conflicts' => [
         ],
@@ -17,7 +17,7 @@ $EM_CONF[$_EXTKEY] = [
     'state' => 'stable',
     'clearCacheOnLoad' => 1,
     'author' => 'Christoph Werner',
-    'author_email' => 'christoph.werner@itfoo.de',
+    'author_email' => 'info@itfoo.de',
     'author_company' => 'itfoo',
-    'version' => '1.0.5',
+    'version' => '1.0.6',
 ];
