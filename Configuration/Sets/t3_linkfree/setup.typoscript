@@ -1,1 +1,3 @@
+[{$T3Linkfree.rootid} in tree.rootLineIds]
 @import './TypoScript/'
+[END]
