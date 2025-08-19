@@ -1,6 +1,7 @@
 ##############
 #### PAGE ####
 ##############
+page >
 page = PAGE
 page {
     typeNum = 0
@@ -38,6 +39,8 @@ page {
             }
             20 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
             20 {
+                special = directory
+                special.value = {$T3Linkfree.rootid}
                 levels = 2
                 includeSpacer = 1
                 as = mainnavigation
@@ -116,10 +119,14 @@ page {
             }
         }
     }
-
+    includeCSSLibs >
+    includeCSS >
     includeCSS {
         t3_linkfree_layout = {$T3Linkfree.cssfile} 
     }
+    includeJS >
+    includeJSFooterlibs >
+    includeJSFooter >
 }
 
 
@@ -136,8 +143,9 @@ config {
     metaCharset = utf-8
     doctype = html5
     removeDefaultJS = 1
+    removeDefaultCss = 1
     inlineStyle2TempFile = 1
-    admPanel = {$config.admPanel}
+    admPanel = 0
     debug = 0
     cache_period = 2592000
     intTarget =
