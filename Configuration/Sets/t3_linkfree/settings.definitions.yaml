@@ -1,6 +1,9 @@
 categories:
   T3Linkfree:
     label: 'T3 Linkfree'
+  T3Linkfree.base:
+    label: 'Important Base Settings'
+    parent: T3Linkfree
   T3Linkfree.templates:
     label: 'Templates'
     parent: T3Linkfree
@@ -12,6 +15,13 @@ categories:
     parent: T3Linkfree
 
 settings:
+  T3Linkfree.rootid:
+    label: 'Root ID'
+    category: T3Linkfree.base
+    description: 'ID of the Rootpage of your Linktree (IMPORTANT!)'
+    type: int
+    default: 0
+  
   T3Linkfree.layout_path:
     label: 'Page layout path'
     category: T3Linkfree.templates
