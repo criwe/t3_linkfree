@@ -19,7 +19,7 @@ settings:
     label: 'Root ID'
     category: T3Linkfree.base
     description: 'ID of the Rootpage of your Linktree (IMPORTANT!)'
-    type: int
+    type: page
     default: 0
   
   T3Linkfree.layout_path:
