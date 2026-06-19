@@ -23,4 +23,4 @@ See :ref:`Configuration <configuration>`
 
 #. Start adding pages
 
-See :ref:`Editor <editor>`
+See :ref:`For Editors <for-editors>`

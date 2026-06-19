@@ -1,6 +1,6 @@
 .. include:: ../Includes.txt
 
-.. _configuration:
+.. _faq:
 
 ===
 FAQ
