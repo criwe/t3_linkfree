@@ -13,11 +13,11 @@ A basic style is included, maybe not necessarily the most beautiful ;-) But you 
 
 # Usage
 
-- Add a page for the linktree
-- Add an template there
-- Insert static template of t3_linkfree
-- Configure the extension via the constant editor (logo, name, logolink..)
-- Add subpages to add links to your linktree (you can add normal paged, internal or external links)
+- Add a page for the linktree, remember ID
+- Add t3linkfree set to your siteset
+- Set Root ID! (Important!) 
+- Configure the extension via settings (logo, name, logolink..)
+- Add subpages to add links to your linktree (you can add normal pages, internal or external links)
 
 # Customizing
 
@@ -25,7 +25,7 @@ You can easily change the style by adding your own CSS file. Just set the path v
 
 # System Requirements
 
-- Works with TYPO3 11 + 12 and PHP 7.4 + 8
+- Works with TYPO3 13 and PHP 8+
 
 
 
