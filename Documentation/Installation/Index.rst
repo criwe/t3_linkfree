@@ -10,16 +10,14 @@ Installation
 	- via the extension manager 
         - composer
 
-#. Create a starting page, i.e. "linkfree"
+#. Add "t3linkfree" to your Site Set (Sets for this Site template)
 
-#. Add an template there and add include static template "t3_linkfree"
-
-	.. figure:: ../Images/Installation/statictemplate.png
+	.. figure:: ../Images/Installation/addsiteset.png
                 :class: with-shadow
                 :width: 800px
-		:alt: add static template
+		:alt: add site set
 
-#. Do some configurations
+#. Do some configurations (Important: set Root ID!)
 
 See :ref:`Configuration <configuration>`
 
