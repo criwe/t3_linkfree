@@ -1,0 +1,86 @@
+categories:
+  T3Linkfree:
+    label: 'T3 Linkfree'
+  T3Linkfree.base:
+    label: 'Important Base Settings'
+    parent: T3Linkfree
+  T3Linkfree.templates:
+    label: 'Templates'
+    parent: T3Linkfree
+  T3Linkfree.layout:
+    label: 'Layout'
+    parent: T3Linkfree
+  T3Linkfree.other:
+    label: 'Other settings'
+    parent: T3Linkfree
+
+settings:
+  T3Linkfree.rootid:
+    label: 'Root ID'
+    category: T3Linkfree.base
+    description: 'ID of the Rootpage of your Linktree (IMPORTANT!)'
+    type: page
+    default: 0
+  
+  T3Linkfree.layout_path:
+    label: 'Page layout path'
+    category: T3Linkfree.templates
+    description: 'Path to the layout of T3 Linkfree.'
+    type: string
+    default: 'EXT:t3_linkfree/Resources/Private/Layouts/Page/'
+
+  T3Linkfree.template_path:
+    label: 'Page template path'
+    category: T3Linkfree.templates
+    description: 'Path to the templates of T3 Linkfree.'
+    type: string
+    default: 'EXT:t3_linkfree/Resources/Private/Templates/Page/'
+
+  T3Linkfree.logo:
+    label: 'Logo'
+    category: T3Linkfree.layout
+    description: 'Path to the logo/avatar.'
+    type: string
+    default: 'EXT:t3_linkfree/Resources/Public/Icons/Extension.svg'
+
+  T3Linkfree.logo-alt:
+    label: 'Logo Alt text'
+    category: T3Linkfree.layout
+    description: 'Alternative text of the logo for the visually impaired'
+    type: string
+    default: 'Logo'
+
+  T3Linkfree.favicon:
+    label: 'Favicon'
+    description: 'This icon is displayed in search engine results and in the browser tab'
+    category: T3Linkfree.layout
+    type: string
+    default: 'EXT:t3_linkfree/Resources/Public/Icons/favicon.ico'
+
+  T3Linkfree.cssfile:
+    label: 'CSS File'
+    description: 'Path to CSS file'
+    category: T3Linkfree.layout
+    type: string
+    default: 'EXT:t3_linkfree/Resources/Public/Css/layout.css'    
+
+  T3Linkfree.link:
+    label: 'Link'
+    description: 'Logo/Avator link'
+    category: T3Linkfree.other
+    type: string
+    default: ''    
+
+  T3Linkfree.linktreename:
+    label: 'Linktreename'
+    description: 'Name of the linktree, i. e. company name'
+    category: T3Linkfree.other
+    type: string
+    default: ''   
+
+  T3Linkfree.usespaceless:
+    label: 'Spaceless'
+    description: 'User fluid spaceless'
+    category: T3Linkfree.other
+    default: true
+    type: bool 

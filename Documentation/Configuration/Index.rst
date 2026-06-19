@@ -6,14 +6,20 @@
 Configuration
 =============
 
-The extension can be configured via the constant editor:
+New in 1.0.6: The extension can be configured via site set:
 
 .. figure:: ../Images/Configuration/configuration.png
    :class: with-shadow
    :alt: configuration
 
-   You can set all needed values via the constant editor.
+   You can set all needed values via siteset.
 
+**Important** set Root ID to page where T3 Linkfree should work.
+The screenshot show how it work: you kann place T3 Linkfree anywhere in your pagetree, just add the right Root ID (34 in that case)
+
+.. figure:: ../Images/Configuration/rootid.png
+   :class: with-shadow
+   :alt: configuration
 
 * Path to CSS file: use your own linkfree-css-file. If set, its used instead of the standard CSS. You might copy the standard-css-file, put it in your sitepackage and change everything  you need to (i.e. colors, fonts...)
 * Logo: the image on the top of you linktree

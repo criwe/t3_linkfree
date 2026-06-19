@@ -1,10 +1,11 @@
 ##############
 #### PAGE ####
 ##############
+page >
 page = PAGE
 page {
     typeNum = 0
-    shortcutIcon = {$plugin.tx_t3_linkfree.settings.faviconFile}
+    shortcutIcon = {$T3Linkfree.favicon}
 
     10 = FLUIDTEMPLATE
     10 {
@@ -25,15 +26,11 @@ page {
         }
         templateRootPaths {
             0 = EXT:t3_linkfree/Resources/Private/Templates/Page/
-            1 = {$page.fluidtemplate.templateRootPath}
-        }
-        partialRootPaths {
-            0 = EXT:t3_linkfree/Resources/Private/Partials/Page/
-            1 = {$page.fluidtemplate.partialRootPath}
+            1 = {$T3Linkfree.template_path}
         }
         layoutRootPaths {
             0 = EXT:t3_linkfree/Resources/Private/Layouts/Page/
-            1 = {$page.fluidtemplate.layoutRootPath}
+            1 = {$T3Linkfree.layout_path}
         }
         dataProcessing {
             10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
@@ -42,36 +39,37 @@ page {
             }
             20 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
             20 {
+                special = directory
+                special.value = {$T3Linkfree.rootid}
                 levels = 2
                 includeSpacer = 1
                 as = mainnavigation
             }
         }
-        settings.linktreelink = {$plugin.tx_t3_linkfree.settings.linktreelink} 
-        settings.linktreename = {$plugin.tx_t3_linkfree.settings.linktreename} 
-        settings.linktreealtlogo = {$plugin.tx_t3_linkfree.settings.linktreealtlogo} 
-        settings.logoFile = {$plugin.tx_t3_linkfree.settings.logoFile} 
-        settings.usespaceless = {$plugin.tx_t3_linkfree.settings.usespaceless} 
-
+        settings.linktreelink = {$T3Linkfree.link} 
+        settings.linktreename = {$T3Linkfree.linktreename} 
+        settings.linktreealtlogo = {$T3Linkfree.logo-alt} 
+        settings.logoFile = {$T3Linkfree.logo} 
+        settings.usespaceless = {$T3Linkfree.usespaceless} 
+        settings.css = {$T3Linkfree.cssfile}
     }
 
     meta {
-        viewport = {$page.meta.viewport}
-        robots = {$page.meta.robots}
-        apple-mobile-web-app-capable = {$page.meta.apple-mobile-web-app-capable}
-        description = {$page.meta.description}
+        viewport = width=device-width, initial-scale=1
+        apple-mobile-web-app-capable = no
+        description = 
         description {
             override.field = description
         }
-        author = {$page.meta.author}
+        author = 
         author {
             override.field = author
         }
-        keywords = {$page.meta.keywords}
+        keywords = 
         keywords {
             override.field = keywords
         }
-        X-UA-Compatible = {$page.meta.compatible}
+        X-UA-Compatible = IE=edge
         X-UA-Compatible {
             attribute = http-equiv
         }
@@ -81,9 +79,10 @@ page {
             attribute = property
             field = title
         }
+        og:site_name = {$T3Linkfree.linktreename}
         og:site_name {
             attribute = property
-            data = TSFE:tmpl|setup|sitetitle
+            replace = 1
         }
         og:description = {$page.meta.description}
         og:description {
@@ -120,10 +119,14 @@ page {
             }
         }
     }
-
+    includeCSSLibs >
+    includeCSS >
     includeCSS {
-        t3_linkfree_layout = {$plugin.tx_t3_linkfree.settings.cssFile} 
+        t3_linkfree_layout = {$T3Linkfree.cssfile} 
     }
+    includeJS >
+    includeJSFooterlibs >
+    includeJSFooter >
 }
 
 
@@ -132,27 +135,25 @@ page {
 ################
 config {
     absRefPrefix = auto
-    no_cache = {$config.no_cache}
+    no_cache = 0
     uniqueLinkVars = 1
     pageTitleFirst = 1
     linkVars = L
-    prefixLocalAnchors = {$config.prefixLocalAnchors}
     renderCharset = utf-8
     metaCharset = utf-8
     doctype = html5
-    removeDefaultJS = {$config.removeDefaultJS}
+    removeDefaultJS = 1
+    removeDefaultCss = 1
     inlineStyle2TempFile = 1
-    admPanel = {$config.admPanel}
+    admPanel = 0
     debug = 0
     cache_period = 2592000
-    sendCacheHeaders = {$config.sendCacheHeaders}
     intTarget =
     extTarget =
     disablePrefixComment = 1
     index_enable = 1
     index_externals = 1
     index_metatags = 1
-    headerComment = {$config.headerComment}
 
     // Disable Image Upscaling
     noScaleUp = 1

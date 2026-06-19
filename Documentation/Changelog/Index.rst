@@ -6,6 +6,16 @@
 Change log
 ==========
 
+Version 1.0.6
+-------------
+
+Add support for TYPO3 13 (remove support for TYPO3 12)
+
+Breaking: Using Site Sets (you need to put your former constants settings to "Site Settings for "Linkfree")
+
+Minor Cleanups
+
+
 Version 1.0.5
 -------------
 
